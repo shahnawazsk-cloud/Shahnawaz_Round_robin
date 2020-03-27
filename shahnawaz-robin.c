@@ -56,6 +56,7 @@ void insert(struct process onep)	//one process
 	printf("\nID = %d",q[i].id);
 	}
 	printf("\n");*/
+	/*SOME CHANGE*/
 }
 
 void kill()
