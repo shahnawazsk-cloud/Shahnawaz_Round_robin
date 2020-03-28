@@ -73,7 +73,7 @@ void kill()
 	//insert(temp);
 	//printf("SIZE = %d", end);	
 }
-
+/*some change*/
 int table(int n, int k, int t)
 	{
 		int i;
