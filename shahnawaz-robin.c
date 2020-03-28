@@ -3,11 +3,9 @@
 #include<math.h>
 #include<string.h>
 #include<stdlib.h>
-
-
 int hr()		// For Horizontal Line
 	{
-		int g,h;
+	int g,h;
 				g=178;
 				printf("\n");
 				for(h=1;h<=42;h++)
@@ -18,8 +16,6 @@ int hr()		// For Horizontal Line
 				printf("%c",219);
 				printf("\n");
 	}
-	
-	
 struct process
 {
 	int id;
@@ -33,14 +29,11 @@ struct process
 	int flag;
 	int tat;
 };
-
-
 struct process p[50];
 struct process q[50];
 int start = 0;
 int end = 0;
 int time = 0;
-
 void insert(struct process onep)	//one process
 {	
 	q[end] = onep;
@@ -50,15 +43,8 @@ void insert(struct process onep)	//one process
 	{
 		p[q[i].id].flag = 1;
 	}
-	/*	
-	for(i = 0; i<end; i++)
-	{
-	printf("\nID = %d",q[i].id);
-	}
-	printf("\n");*/
 	/*SOME CHANGE*/
 }
-
 void kill()
 {
 	int i;
